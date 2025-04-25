@@ -140,12 +140,10 @@ html {
 
 .rezervace-button {
     color: var(--mainclr);
-    t
 }
 
-.searchbar.active {
-    left: 0;
-}
+
+
 
 .inner-searchbar {
     width: 80%;
@@ -176,10 +174,12 @@ html {
     gap: 20px;
     margin-top: 6%;
 }
+
 .img-main {
     max-width: 40vw;
     max-height: 40vw;
 }
+
 .inner-home {
     flex: 1 1 45rem;
     text-align: center;
@@ -569,9 +569,9 @@ address {
         margin: 0 auto;
     }
 
-    .img-main{
-        max-width: 50vw;
-        max-height: 50vw;
+    .img-main {
+        max-width: 60vw;
+        max-height: 60vw;
     }
 
 
