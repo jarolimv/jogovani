@@ -313,9 +313,11 @@ html {
 
 .inner-content-instructor p {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .inner-content-instructor a {
