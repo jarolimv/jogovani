@@ -7,8 +7,8 @@
     <meta name="description" content="Jógování s Ludmilou - certifikovaná lektorka jógy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jógování s Ludmilou</title>
+    <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css" media="print" onload="this.media='all'">
 </head>
 
 <body>
@@ -26,10 +26,10 @@
 
         </nav>
 
-        <nav class="class-content navbar" style="display: block;">
+        <div class="class-content navbar" style="display: block;">
             <a class="rezervace-button" href="http://reenio.cz/cs/redirect/reservationpage/22549"
                 target="_blank">Rezervace</a>
-        </nav>
+        </div>
 
     </header>
 
@@ -133,7 +133,7 @@
                         snažím tuto zkušenost předávat dál a vytvářet prostor, kde se může každý uvolnit, zastavit a
                         objevit vlastní zdroj energie i vnitřního klidu. </p>
 
-                    <!-- <a href="#">Read more</a> -->
+                    
                 </div>
 
             </div>
@@ -175,70 +175,7 @@
 
 
 
-    <!-- <div class="our-gallery">
-    <h1 id="galerie" class="scroll_down">Galerie</h1>
-    <div class="main-gallery">
-        <div class="inner-gallery">
-            <img src="images/gallery1.jpg" alt="">
-        </div>
 
-        <div class="inner-gallery">
-            <img src="images/gallery2.jpg" alt="">
-        </div>
-
-        <div class="inner-gallery">
-            <img src="images/gallery3.jpg" alt="">
-        </div>
-
-        <div class="inner-gallery">
-            <img src="images/gallery4.jpg" alt="">
-        </div>
-
-        <div class="inner-gallery">
-            <img src="images/gallery5.jpg" alt="">
-        </div>
-
-        <div class="inner-gallery">
-            <img src="images/gallery6.jpg" alt="">
-        </div>
-    </div>
-</div>
-
-
-<div class="our-prices">
-    <h1 id="ceny" class="scroll_down">Ceny</h1>
-    <div class="main-prices">
-        <div class="inner-prices">
-            <h2>Havlíčkův Brod</h2>
-            <h3>Cena : 150 Kč / lekce</h3>
-            <div class="price-icon">
-                <i class="fas fa-award"></i>
-            </div>
-            <a href="#">Přihlásit</a>
-        </div>
-
-        <div class="inner-prices">
-            <h2>Ledeč nad Sázavou</h2>
-            <h3>Cena : 120 Kč / lekce</h3>
-            <div class="price-icon">
-                <i class="fas fa-award"></i>
-            </div>
-            <a href="#">Přihlásit</a>
-        </div>
-
-        <div class="inner-prices">
-            <h2>Pardubice</h2>
-            <h3>Cena : 150 Kč / lekce</h3>
-            <div class="price-icon">
-                <i class="fas fa-award"></i>
-            </div>
-            <a href="#">Přihlásit</a>
-        </div>
-    </div>
-</div> -->
-
-
-    <!-- contact us -->
 
     <div class="contact-us" id="contact">
         <div class="main-contact">
@@ -246,22 +183,35 @@
                 <h1>Kontakt</h1>
                 <address>
                     <h2>Ludmila Jarolímová</h2>
-                    <div class="contact-data"><i class="fas fa-phone"></i> <a href="tel:+420737479895">+420 737 479
-                            895</a></div>
-                    <div class="contact-data"><i class="fas fa-at"></i> <a
-                            href="mailto:valjarolim@seznam.cz">valjarolim@seznam.cz</a></div>
-                    <div class="contact-data"><i class="fab fa-facebook"></i> <a
-                            href="https://www.facebook.com/ludmila.jarolimova.3">facebook.com/ludmila.jarolimova.3</a>
+
+                    <div class="contact-data">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        <a href="tel:+420737479895">+420 737 479 895</a>
                     </div>
-                    <!-- <div class="contact-data"><i class="fab fa-instagram"></i> <a
-                            href="https://www.instagram.com/ludmila.jarolimova/">instagram.com/ludmila.jarolimova/</a>
-                    </div> -->
+
+                    <div class="contact-data">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:valjarolim@seznam.cz">valjarolim@seznam.cz</a>
+                    </div>
+
+                    <div class="contact-data">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+                            fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                        <a href="https://www.facebook.com/ludmila.jarolimova.3">facebook.com/ludmila.jarolimova.3</a>
+                    </div>
                 </address>
-                <!-- <div class="inner-form-contact">
-                <input type="text" placeholder="your name">
-                <input type="email" placeholder="your email">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div> -->
             </div>
 
             <div class="inner-contact">
@@ -269,35 +219,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
