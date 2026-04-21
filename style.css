@@ -65,6 +65,10 @@ html {
     color: orange;
 }
 
+.navbar a.rezervace-button:after {
+    display: none;
+}
+
 .navbar.active {
     top: 100%;
 }
@@ -81,6 +85,14 @@ html {
 
 #menubar {
     display: none;
+}
+
+.me {
+    scroll-margin-top: 60px;
+}
+
+.rez-bnt {
+    display: block;
 }
 
 .search-form {
@@ -229,6 +241,10 @@ html {
     flex-wrap: wrap;
     gap: 50px;
 
+}
+
+.groups {
+    scroll-margin-top: 80px;
 }
 
 .inner-class {
