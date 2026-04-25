@@ -96,9 +96,11 @@ html {
     color: orange;
 }
 
-.navbar a.rezervace-button:after {
-    display: none;
+
+.rezervace-button:hover {
+    color: orange;
 }
+
 
 .navbar.active {
     top: 100%;
