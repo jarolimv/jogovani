@@ -223,6 +223,7 @@ html {
     color: white;
     font-size: 1.5rem;
     margin-bottom: 25px;
+    text-wrap: pretty;
 }
 
 .class-content a {
@@ -286,6 +287,7 @@ html {
     margin-top: 15px;
     margin-bottom: 20px;
     text-align: justify;
+    text-wrap: pretty;
 }
 
 .inner-content-instructor a {
@@ -424,6 +426,7 @@ address {
     margin-bottom: 2rem;
     text-align: justify;
     padding: 0;
+    text-wrap: pretty;
 }
 
 .vop-content strong {
@@ -441,6 +444,7 @@ address {
     line-height: 1.6;
     margin-bottom: 1rem;
     text-align: justify;
+    text-wrap: pretty;
 }
 
 .vop-content a {
@@ -551,6 +555,7 @@ a.vop-back-button:hover {
 
     .inner-content p {
         padding: 0 1rem;
+        
 
     }
 
