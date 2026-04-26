@@ -495,7 +495,29 @@ a.vop-back-button:hover {
     align-items: stretch;
 }
 
+.footer {
+    background-color: var(--secondclr);
+    padding: 3rem 7%;
+    text-align: center;
+    border-top: 1px solid var(--mainclr);
+}
 
+.footer-content p {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    font-size: 1.4rem;
+    color: var(--mainclr);
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: orange;
+    text-decoration: underline;
+}
 
 @media (max-width:800px) {
     html {
@@ -587,5 +609,22 @@ a.vop-back-button:hover {
         font-size: 1.5rem;
     }
 
+    .inner-instructor img,
+    .inner-contact img {
+        width: 60%;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+
+    }
+
+    img[src*="center.webp"] {
+        display: none;
+    }
+
+    .circle-img {
+        max-width: 15rem;
+        max-height: 15rem;
+    }
 
 }
