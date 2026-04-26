@@ -427,7 +427,7 @@ address {
 }
 
 .vop-content strong {
-    color: var(--mainclr);
+    color: black;
 }
 
 .vop-content ul {
