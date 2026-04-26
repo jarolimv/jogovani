@@ -627,4 +627,7 @@ a.vop-back-button:hover {
         max-height: 15rem;
     }
 
+    .vop-back {
+        padding-top: 10rem;
+    }
 }
