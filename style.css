@@ -645,6 +645,10 @@ a.vop-back-button:hover {
     line-height: 1.5;
 }
 
+.inner-content-instructor.experience h2 {
+    margin-bottom: 20px !important;
+}
+
 .inner-content-instructor.experience p strong {
     display: block;
     margin-top: 10px;
