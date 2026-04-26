@@ -11,11 +11,13 @@
 
 /* roboto-500 - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/roboto-v51-latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v51-latin-ext-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* roboto-700 - latin-ext */
@@ -670,12 +672,14 @@ a.vop-back-button:hover {
     }
 
     .inner-content h1 {
-
         font-size: 40px;
     }
 
-    .inner-content p {
+    .inner-content h2 {
+        font-size: 20px;
+    }
 
+    .inner-content p {
         padding: 0 1rem;
 
     }
