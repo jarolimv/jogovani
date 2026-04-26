@@ -39,7 +39,6 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all .2s;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -87,7 +86,7 @@ html {
     top: 100%;
     left: 0;
     background: black;
-    transition: .5s;
+    transition: width 0.5s ease;
     height: 2px;
     margin-top: 5px;
     width: 0;
@@ -108,16 +107,6 @@ html {
     top: 100%;
 }
 
-.icon div {
-    margin-left: 1.5rem;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.icon div:hover {
-    color: orange;
-}
-
 #menubar {
     display: none;
 }
@@ -130,82 +119,8 @@ html {
     display: block;
 }
 
-.search-form {
-    position: absolute;
-    top: 100%;
-    left: -100%;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background: var(--mainclr);
-    transition: .5s;
-}
-
-.search-form.active {
-    left: 0;
-}
-
-.inner-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-}
-
-.inner-form input {
-    padding: 1.5rem;
-    width: 100%;
-    border: none;
-    background: transparent;
-    border-bottom: 2px solid black;
-    color: white;
-    margin-top: 1rem;
-}
-
-.inner-form input::placeholder {
-    color: white;
-}
-
-.searchbar {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    left: -100%;
-    right: 0;
-    top: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--mainclr);
-    transition: .5s;
-}
-
 .rezervace-button {
     color: var(--mainclr);
-}
-
-
-
-
-.inner-searchbar {
-    width: 80%;
-}
-
-.inner-searchbar input {
-    border: none;
-    padding: 1.5rem;
-    width: 80%;
-    background: transparent;
-    border-bottom: 2px solid black;
-    color: white;
-}
-
-.inner-searchbar input::placeholder {
-    color: white;
 }
 
 .back {
@@ -374,96 +289,6 @@ html {
     font-size: 1.5rem;
 }
 
-
-.our-gallery {
-    padding: 4rem 7%;
-    background: var(--mainclr);
-}
-
-.our-gallery h1 {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.main-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.inner-gallery {
-    flex: 1 1 300px;
-}
-
-.inner-gallery img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    transition: 1s;
-}
-
-.inner-gallery img:hover {
-    transform: scale(1.1) rotate(20deg);
-    border-radius: 15px;
-}
-
-.our-prices {
-    padding: 5rem 7%;
-    background: var(--secondclr);
-}
-
-.our-prices h1 {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.main-prices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px;
-}
-
-.inner-prices {
-    flex: 1 1 300px;
-    padding: 4rem 1rem;
-    background: white;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.inner-prices h2 {
-    font-size: 25px;
-    color: var(--mainclr);
-    margin-bottom: 15px;
-}
-
-.inner-prices h3 {
-    font-size: 20px;
-    color: var(--mainclr);
-    margin-bottom: 15px;
-}
-
-.price-icon i {
-    font-size: 80px;
-    margin-bottom: 25px;
-    color: var(--mainclr);
-}
-
-.inner-prices a {
-    padding: 1rem 3rem;
-    background: var(--mainclr);
-    font-size: 1.5rem;
-    color: black;
-    border-radius: 15px;
-}
-
 .contact-us {
     padding: 6rem 7%;
     background: var(--mainclr);
@@ -615,7 +440,7 @@ address {
     color: black;
     text-decoration: none;
     border-bottom: 1px solid var(--mainclr);
-    transition: all .3s;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
 .vop-content a:hover {
@@ -641,11 +466,27 @@ a.vop-back-button:hover {
     border-bottom-color: transparent;
 }
 
+#groups {
+    scroll-margin-top: 80px;
+}
 
+#me,
+#contact {
+    scroll-margin-top: 65px;
+}
 
+.inner-instructor img,
+.inner-contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
-
-
+.main-instructor,
+.main-contact {
+    align-items: stretch;
+}
 
 
 
@@ -694,20 +535,6 @@ a.vop-back-button:hover {
 
     .inner-instructor img {
         margin-top: 15px;
-    }
-
-    .searchbar {
-        width: 100%;
-    }
-
-    .inner-searchbar {
-        width: 100%;
-        margin-left: 20px;
-    }
-
-    .inner-searchbar input {
-        width: 90%;
-        margin: 0 auto;
     }
 
     .img-main {
