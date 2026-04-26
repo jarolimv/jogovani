@@ -628,6 +628,11 @@ address {
     text-decoration: none;
 }
 
+a.vop-back-button:hover {
+    color: white;
+    border-bottom-color: transparent;
+}
+
 
 
 
