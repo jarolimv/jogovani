@@ -556,6 +556,8 @@ a.vop-back-button:hover {
 
     .inner-content-instructor {
         text-align: center;
+        width: 100%;
+        padding: 0 1rem;
     }
 
     .inner-content-instructor h2 {
@@ -630,4 +632,21 @@ a.vop-back-button:hover {
     .vop-back {
         padding-top: 10rem;
     }
+
+    .back,
+    .our-instructor,
+    .contact-us {
+        padding: 3rem 4%;
+    }
+
+.inner-content-instructor.experience p {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    line-height: 1.5;
+}
+
+.inner-content-instructor.experience p strong {
+    display: block;
+    margin-top: 10px;
+}
 }
