@@ -536,6 +536,19 @@ a.vop-back-button:hover {
         text-align: center;
     }
 
+    .inner-content-instructor h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .inner-content-instructor .first {
+        text-align: center;
+    }
+
+    .inner-contact h1 {
+        font-size: 40px;
+    }
+
     .mian-home {
         margin-top: 7%;
     }
